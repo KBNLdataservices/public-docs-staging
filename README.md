@@ -21,5 +21,23 @@ Public documentation, code, insights, tips & tricks about the public data archit
 - Europeana
 
 ## Bespoke data services
+Would you like to work with data of newspapers, books and magazines that are possibly protected by copyright? In some cases these data can be made available upon request for academic purposes by researchers, scientists, educators or (data)journalists. You can contact dataservices@kb.nl(link sends e-mail).
+
+Possible datasets are:
+
+    Delpher(link is external) (digitized texts of Dutch books, newspapers and magazines until the 21st century)
+    Digitale Bibliotheek voor de Nederlandse Letteren(link is external)
+    KB-collecties on The Memory(link is external)
+    KB Lab
+    Special web collections 
+
+We hope to make these and other data sets available as freely as possible in due course.
+Data sets for research
+
+For academic research purposes it is often possible to use data sets that are not yet freely available. Please contact us at dataservices@kb.nl (link sends e-mail).
+
 
 ## Copyright
+
+## Contact
+ dataservices@kb.nl
