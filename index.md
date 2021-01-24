@@ -1,4 +1,4 @@
-<image src="images/logos/KB_Nationale-Bibliotheek_Logo_RGB-Zwart-EN.jpg" width="400" align="right"/>
+<image src="images/logos/KB_Nationale-Bibliotheek_Logo_RGB-Zwart-EN.png" width="400" align="right"/>
 Tips & tricks about the public data architecture of the KB, national library of the Netherlands 
 
 https://www.kb.nl/en/organisation/research-expertise/digitization-projects-in-the-kb/digitization-at-the-kb-backgrounds-and-documentation/standards
