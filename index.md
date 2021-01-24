@@ -4,17 +4,35 @@ Tips & tricks about the public data architecture of the KB, national library of 
 https://www.kb.nl/en/organisation/research-expertise/digitization-projects-in-the-kb/digitization-at-the-kb-backgrounds-and-documentation/standards
 https://www.kb.nl/organisatie/onderzoek-expertise/digitaliseringsprojecten-in-de-kb/beleid-documentatie-en-techniek-van-digitalisering/gebruikte-standaarden-bij-digitalisering
 
-## Delpher
 
-## Geheugen
-Ik zie uit die SRU-respons dat je wel een thumbnail kan opvragen: http://resolver.kb.nl/resolve?urn=urn:gvn:RAA01:CA701-B-575&role=thumbnail
-http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GVN&stylesheet=&recordSchema=dcx&startRecord=1&maximumRecords=1000&query=isPartOf%3DRAA01
-
-Maar ik weet een workaround: http://resolver.kb.nl/resolve?urn=urn:gvn:RAA01:CA701-B-575&size=large
-
+# Delpher newspapers
 
 ## Resolver
-### Delpher newspapers
+
+•	Krantenartikelen: 
+http://resolver.kb.nl/resolve?urn=ddd:010562423:mpeg21:a0162  http://kranten.delpher.nl/nl/view/index/image/ddd:010562423:mpeg21:a0162
+
+•	Pagina:
+http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:p003  http://kranten.delpher.nl/nl/view/index/image/ddd:010177653:mpeg21:p003
+
+•	Krant: 
+http://resolver.kb.nl/resolve?urn=ddd:010562423  http://kranten.delpher.nl/nl/view/index/image/ddd:010562423:mpeg21
+
+
+Resolver-URLs die ongewijzigd blijven en niet in Delpher context worden getoond:
+
+1.	http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:p003:image  http://resources2.kb.nl/010175000/accessimages/010177653/DDD_010177653_003_access.jp2
+
+2.	http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:pdf  http://resources2.kb.nl/010175000/pdf/DDD_010177653.pdf
+3.	
+http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:a0039:ocr  http://resources2.kb.nl/010175000/articletext/010177653/DDD_010177653_0039_articletext.xml 
+
+4.	http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:p003:alto  http://resources2.kb.nl/010175000/alto/010177653/DDD_010177653_003_alto.xml 
+
+5.	http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21  http://services.kb.nl/mdo/oai?verb=GetRecord&identifier=DDD:ddd:010177653:mpeg21&metadataPrefix=didl
+ 
+
+
 * http://resolver.kb.nl/resolve?urn=MMKB12:000157121:mpeg21:a00083:ocr
 * http://resolver.kb.nl/resolve?urn=MMKB12:000157121:mpeg21:a00083
 * https://resolver.kb.nl/resolve?urn=MMKB12:000157121
@@ -23,7 +41,40 @@ Maar ik weet een workaround: http://resolver.kb.nl/resolve?urn=urn:gvn:RAA01:CA7
 * https://resolver.kb.nl/resolve?urn=MMKB12:000157121:mpeg21:p00007
 * https://resolver.kb.nl/resolve?urn=MMKB12:000157121:mpeg21:p00007:alto
 * https://resolver.kb.nl/resolve?urn=MMKB12:000157121:mpeg21:p00007:image
+
+## Imageviewer
 * http://imageviewer.kb.nl/ImagingService/imagingService?r=180&h=530&id=MMKB12:000157121:mpeg21:p00007:image
+Calls naar de Image-viewer zoals http://imageviewer.kb.nl/ImagingService/imagingService?&id=ddd:010177653:mpeg21:p003:image  of http://imageviewer.kb.nl/ImagingService/imagingService?r=180&h=300&id=ddd:010177653:mpeg21:p003:image  blijven toch gewoon onveranderd??
+ Ja
+
+## jSRU
+na klikken op periode face:
+http://jsru.kb.nl/sru/sru?query=tas&version=1.2&operation=searchRetrieve&startRecord=1&maximumRecords=10&recordSchema=ddd&x-collection=DDD_artikel&x-fields=OaiPmhIdentifier%2CdateString%2Czones&x-facets=facets%3A+periode%2Cspatial%2Ctype
+
+facet Nederlands Indie:
+http://jsru.kb.nl/sru/sru?query=tas&version=1.2&operation=searchRetrieve&startRecord=1&maximumRecords=10&recordSchema=ddd&x-collection=DDD_artikel&x-fields=OaiPmhIdentifier%2CdateString%2Czones&x-facets=facets%3A+periode%2Cspatial%2Ctype&x-filter=%28spatial+exact+%22Nederlands-Indi%C3%AB+%2F+Indonesi%C3%AB%22%29
+
+Zoeken in de Telegraaf (ppn any 832675288):
+http://jsru.kb.nl/sru/sru?query=%28content+all+%22tas%22%29+AND++ppn+any+%28832675288%29&version=1.2&operation=searchRetrieve&startRecord=1&maximumRecords=10&recordSchema=ddd&x-collection=DDD_artikel&x-fields=OaiPmhIdentifier%2CdateString%2Czones&x-facets=facets%3A+periode%2Cspatial%2Ctype
+
+Ik hoor t wel als er meer info nodig is (JSON output wellicht nog?)
+========================
+Overigens zijn er drie 'kranten'-collecties:
+
+DDD_krantennr
+DDD_artikel
+DDD_titels
+=======================
+
+## OAI-PMH
+- http://services.kb.nl/mdo/oai?verb=GetRecord&identifier=DDD:ddd:010109729:mpeg21&metadataPrefix=didl
+- http://services.kb.nl/mdo/oai?verb=ListSets
+
+# Geheugen
+Ik zie uit die SRU-respons dat je wel een thumbnail kan opvragen: http://resolver.kb.nl/resolve?urn=urn:gvn:RAA01:CA701-B-575&role=thumbnail
+http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GVN&stylesheet=&recordSchema=dcx&startRecord=1&maximumRecords=1000&query=isPartOf%3DRAA01
+
+Maar ik weet een workaround: http://resolver.kb.nl/resolve?urn=urn:gvn:RAA01:CA701-B-575&size=large
 
 Dat werkt vergelijkbaar met de objecten in bv https://geheugen.delpher.nl of alle KB-objectidentifiers die je vindt via 
 
@@ -31,8 +82,12 @@ https://nl.wikipedia.org/w/index.php?title=Speciaal:VerwijzingenZoeken&limit=500
 en
 https://nl.wikipedia.org/w/index.php?title=Speciaal:VerwijzingenZoeken&limit=5000&offset=0&target=http%3A%2F%2Fresolver.kb.nl
 
+•	JSRU
+- http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GGC&query=EuropeanaTravel:131H26&recordSchema=dcx&startRecord=1&maximumRecords=1000&sort=
+- http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GVN&stylesheet=&recordSchema=dcx&startRecord=1&maximumRecords=1000&query=isPartOf%3DAHM01
 
-## data.bibliotheken.nl
+
+# data.bibliotheken.nl
 
 Deze query werkt dus niet
 
@@ -67,7 +122,11 @@ Dus zou de query moeten worden
    #FILTER(regex(?wikidata, 'wikidata', 'i'))
    } limit 1000
 0
-```
+
+# KB catalogue
+•	JSRU
+- http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GGC&query=EuropeanaTravel:131H26&recordSchema=dcx&startRecord=1&maximumRecords=1000&sort=
+
 
 ==========
 
@@ -128,9 +187,7 @@ KB Diensten / APIs / open datasets die ik als ontwikkelaar/hacker gebruik, zou k
 - http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GGC&query=EuropeanaTravel:131H26&recordSchema=dcx&startRecord=1&maximumRecords=1000&sort=
 - http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GVN&stylesheet=&recordSchema=dcx&startRecord=1&maximumRecords=1000&query=isPartOf%3DAHM01
 
-•	OAI-PMH
-- http://services.kb.nl/mdo/oai?verb=GetRecord&identifier=DDD:ddd:010109729:mpeg21&metadataPrefix=didl
-- http://services.kb.nl/mdo/oai?verb=ListSets
+
 
 •	KB-beelden op Wikimedia Commons: https://commons.wikimedia.org/wiki/Commons:Koninklijke_Bibliotheek 
 
@@ -167,50 +224,9 @@ data.bibliotheken.nl
 
 ====================================
 
-na klikken op periode face:
-http://jsru.kb.nl/sru/sru?query=tas&version=1.2&operation=searchRetrieve&startRecord=1&maximumRecords=10&recordSchema=ddd&x-collection=DDD_artikel&x-fields=OaiPmhIdentifier%2CdateString%2Czones&x-facets=facets%3A+periode%2Cspatial%2Ctype
-
-facet Nederlands Indie:
-http://jsru.kb.nl/sru/sru?query=tas&version=1.2&operation=searchRetrieve&startRecord=1&maximumRecords=10&recordSchema=ddd&x-collection=DDD_artikel&x-fields=OaiPmhIdentifier%2CdateString%2Czones&x-facets=facets%3A+periode%2Cspatial%2Ctype&x-filter=%28spatial+exact+%22Nederlands-Indi%C3%AB+%2F+Indonesi%C3%AB%22%29
-
-Zoeken in de Telegraaf (ppn any 832675288):
-http://jsru.kb.nl/sru/sru?query=%28content+all+%22tas%22%29+AND++ppn+any+%28832675288%29&version=1.2&operation=searchRetrieve&startRecord=1&maximumRecords=10&recordSchema=ddd&x-collection=DDD_artikel&x-fields=OaiPmhIdentifier%2CdateString%2Czones&x-facets=facets%3A+periode%2Cspatial%2Ctype
-
-Ik hoor t wel als er meer info nodig is (JSON output wellicht nog?)
-========================
-Overigens zijn er drie 'kranten'-collecties:
-
-DDD_krantennr
-DDD_artikel
-DDD_titels
-=======================
 
 
 
-Als je de output van dit (query met je 1e ppn): http://rel-lb-solr-p200.dmz.kb.nl/solr/DDD_krantnr/select/?q=ppn%3A851959695&version=2.2&start=0&rows=10&indent=on&wt=json
-vergelijkt met deze (2e ppn): http://rel-lb-solr-p200.dmz.kb.nl/solr/DDD_krantnr/select/?q=ppn%3A11851959695&version=2.2&start=0&rows=10&indent=on&wt=json
-
-(dit JSON laat het gedeelte &wt=json weg als je xml wil)
-
-In het veld 'numFound' zie je hoeveel keer dit ppn voorkomt in de index DDD_krantnr
-Dus dit kan heel mooi gescript worden....
-
-===============================
-1	Overzicht benodigde Redirects
-
-1.1	Statische pagina’s
-
-•	Kranten.kb.nl  kranten.delpher.nl
-•	Alle statische pagina’s en andere pagina’s (op de hieronder genoemde objectviews & zoekresultaten na)  kranten.delpher.nl
-
-1.2	Objecten
-Op het moment dat kranten.kb.nl uitgefaseerd gaat worden zijn er op verschillende niveaus redirects nodig:
-
-1.2.1	Krantentitel
-Zie ook beschrijving boven. Deze urls naar zoekresultaten zijn ook opgenomen in de 
-GGC
-•	http://kranten.kb.nl/search/show/ppn/851995985 
-•	http://kranten.delpher.nl/nl/results/index/coll/dddtitel/query//cql/%28ppn+exact+851995985%29
 
 1.2.2	Krantnummer
 Normale view:
@@ -262,28 +278,7 @@ Alles anders dan /layout/fullscreen bij redirect negeren.
 
 De volgende resolver-verwijzingen zijn in het kader van Delpher aangepast zodat ze nu (vanaf lancering Delpher) redirecten naar het betreffende object in de Delpher website:
 
-•	Krantenartikelen: 
-http://resolver.kb.nl/resolve?urn=ddd:010562423:mpeg21:a0162  http://kranten.delpher.nl/nl/view/index/image/ddd:010562423:mpeg21:a0162
 
-•	Pagina:
-http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:p003  http://kranten.delpher.nl/nl/view/index/image/ddd:010177653:mpeg21:p003
-
-•	Krant: 
-http://resolver.kb.nl/resolve?urn=ddd:010562423  http://kranten.delpher.nl/nl/view/index/image/ddd:010562423:mpeg21
-
-
-Resolver-URLs die ongewijzigd blijven en niet in Delpher context worden getoond:
-
-1.	http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:p003:image  http://resources2.kb.nl/010175000/accessimages/010177653/DDD_010177653_003_access.jp2
-
-2.	http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:pdf  http://resources2.kb.nl/010175000/pdf/DDD_010177653.pdf
-3.	
-http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:a0039:ocr  http://resources2.kb.nl/010175000/articletext/010177653/DDD_010177653_0039_articletext.xml 
-
-4.	http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:p003:alto  http://resources2.kb.nl/010175000/alto/010177653/DDD_010177653_003_alto.xml 
-
-5.	http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21  http://services.kb.nl/mdo/oai?verb=GetRecord&identifier=DDD:ddd:010177653:mpeg21&metadataPrefix=didl
- 
  
 3	Openstaande vragen
 
@@ -302,7 +297,7 @@ In overzicht hoofdtuk 2 opgenomen en als Bug gemeld voor Delpher.
 OJ: Ja, zeer graag! De huidige resolver-aanroep http://resolver.kb.nl/resolve?urn=ddd:010177653:mpeg21:p003:image 
 laat de JP2 zien. Omdat er veel meer klantvraag is naar JPGs dan naar JP2s, zou ik  liever zien dat bij deze resolver-aanroep de hi-res JPG (buiten de Delpher-context dus) teruggegeven wordt (zoals nu dus gebeurt via http://imageviewer.kb.nl/ImagingService/imagingService?&id=ddd:010177653:mpeg21:p003:image ). De JP2 hoeft w.m.b. niet online beschikbaar te zijn, het is immers geen gangbaar webformaat
 
- In overleg met Huib, Joao, Rene Voorburg, Olaf J en Robert op 5/12/2013 besloten dat we dit doen. Op de resources is geen JPG beschikbaar, deze wordt on-the-fly gemaakt vanuit de JP2. Resolver-urls naar de image-viewer zijn niet wenselijk om zware belasting van de imageviewer niet aan te moedigen.
+
 
 4.	Moeten we, eerder verzoek van Hans H, ook ipv :image/:ocr e.d. de syntax &role=image/&role=ocr etc toevoegen. Uit eerdere mail van Hans H:
 
@@ -331,8 +326,7 @@ http://kranten.delpher.nl/nl/view/index/image/ddd:010562423:mpeg21:a0012#ocr
 
  Geeft wel zelfde resultaat maar bij het aanklikken van bovenstaande URL wordt // niet overgenomen. Bij copy-paste gaat het wel goed.
 
-9.	Calls naar de Image-viewer zoals http://imageviewer.kb.nl/ImagingService/imagingService?&id=ddd:010177653:mpeg21:p003:image  of http://imageviewer.kb.nl/ImagingService/imagingService?r=180&h=300&id=ddd:010177653:mpeg21:p003:image  blijven toch gewoon onveranderd??
- Ja
+
 
 
 
