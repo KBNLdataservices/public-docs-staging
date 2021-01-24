@@ -132,16 +132,6 @@ Dus zou de query moeten worden
 
 
 
-Dit  is weer zo’n ding dat je alleen weet once you’re in the know, het staat nergens gedocumenteerd. 
-
-Deze 404 & workaround is volgens mij een ouder probleem, ik kwam dat ook al tegen toen ik jaren terug met de GWToolset werkte om Geheugen-collecties naar Commons te zetten (ja, inderdaad, zie dit script, regel 263, daar pas ik die workaround al toe, op deze collectie, die daarmee naar deze cat op Commons gezet werd)
-
-Ik ga (uit pure frustratie om de slechte documentatie) daarom z.s.m. op onze KBNLWikimedia-github een pagina aanmaken waarin ik al dit soort workarounds ga documenteren, want ik zie soms ook door de bomen het bos niet meer… 
-
-Groet,
-Olaf
-
-
 =====================
 
 De stappen die je zelf kunt volgen voor het verkrijgen van de pdfs en de beelden (waarbij ik 
