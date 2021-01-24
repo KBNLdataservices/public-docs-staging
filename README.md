@@ -1,4 +1,4 @@
-<image src="images/logos/KB_Nationale-Bibliotheek_Logo_RGB-Zwart-EN.jpg" width="400" align="right"/>
+<image src="images/logos/KB_Nationale-Bibliotheek_Logo_RGB-Zwart-EN.png" width="400" align="right"/>
 
 # KBNL-dataservices/public-docs
 
