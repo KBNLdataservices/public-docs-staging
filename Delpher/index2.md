@@ -21,19 +21,7 @@ https://nl.wikipedia.org/w/index.php?title=Speciaal:VerwijzingenZoeken&limit=500
 - http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GGC&query=EuropeanaTravel:131H26&recordSchema=dcx&startRecord=1&maximumRecords=1000&sort=
 - http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GVN&stylesheet=&recordSchema=dcx&startRecord=1&maximumRecords=1000&query=isPartOf%3DAHM01
 
-
-
-
-# KB catalogue
-•	JSRU
-- http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GGC&query=EuropeanaTravel:131H26&recordSchema=dcx&startRecord=1&maximumRecords=1000&sort=
-
-
-==========
-
-
-
-=====================
+======================
 
 De stappen die je zelf kunt volgen voor het verkrijgen van de pdfs en de beelden (waarbij ik 
 •	programeer/scripts skills aanneem, en 
@@ -63,25 +51,6 @@ En dan itereren over alle krantenpagina’s die in dat didl-bestand genoemd word
 
 Je zie ook links als http://resolver.kb.nl/resolve?urn=ddd:010109729:mpeg21:a0002 en http://resolver.kb.nl/resolve?urn=ddd:010109729:mpeg21:a0002:ocr staan, daarmee kun je nog op artikelniveau OCR opvragen. Er zijn helaas geen kant-en-klare jpgs op artikelniveau beschikbaar (dus alleen scans op paginaniveau beschikbaar)
 ===============================
-
-KB Diensten / APIs / open datasets die ik als ontwikkelaar/hacker gebruik, zou kunnen of zou willen gebruiken (excl onze OB-georiënteerde sets)
-
-•	KB-Dataservices : https://www.kb.nl/dataservices
-
-•	KB-Labs : https://lab.kb.nl/ + https://github.com/KBNLresearch
-
-•	LOD thesauri: https://data.bibliotheken.nl + https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis/linked-data-van-de-kb 
-
-•	Delpher Open Kranten Archief // Zipfiles - https://www.delpher.nl/nl/platform/pages/helpitems?title=data+in+delpher + https://www.delpher.nl/nl/platform/pages/helpitems?title=delpher+open+krantenarchief&scrollitem=true 
-
-•	JSRU
-- http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GGC&query=EuropeanaTravel:131H26&recordSchema=dcx&startRecord=1&maximumRecords=1000&sort=
-- http://jsru.kb.nl/sru?version=1.2&operation=searchRetrieve&x-collection=GVN&stylesheet=&recordSchema=dcx&startRecord=1&maximumRecords=1000&query=isPartOf%3DAHM01
-
-
-
-•	KB-beelden op Wikimedia Commons: https://commons.wikimedia.org/wiki/Commons:Koninklijke_Bibliotheek 
-
 
 Concrete re-use cases waarvoor ik KB-APIs bevraagd heb
 -	Alternatief front-end voor GvN Kinderboeken : https://ookgezellig.github.io/GVN-Prentenboeken1810-1950/output/06333948X.html  vs https://www.geheugenvannederland.nl/nl/geheugen/view/moeder-hubbard-haar-hond-gekleurde-plaatjes?coll=ngvn&maxperpage=36&page=1&query=hubbard&identifier=PRB01%3A06333948X 
