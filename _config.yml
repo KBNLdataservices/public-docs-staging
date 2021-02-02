@@ -45,11 +45,11 @@ exclude:
   - copyright
   - dataservices
   - kbga
-  - bibliotheekinzicht/*
-  - dbnl/*
-  - delpher/*
-  - restrictedsets/*
+  - restrictedsets
   - updates.md
+  - opensets/bibliotheekinzicht
+  - opensets/dbnl
+  - opensets/delpher
   - opensets/bookbindings.md
   - opensets/brinkman.md
   - opensets/corp-thes.md
