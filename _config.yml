@@ -50,8 +50,8 @@ exclude:
   - opensets/brinkman.md
   - opensets/corp-thes.md
   - opensets/digger.md
-  - opensets/*.md
-
-include:
-  - opensets/alba.md
+  - opensets/entangled-histories.md
+  - bibliotheekinzicht
+  - dbnl
+  - delpher
 
