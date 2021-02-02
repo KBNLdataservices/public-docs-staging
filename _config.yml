@@ -4,7 +4,7 @@ twitter_username: KBNLdataservices
 github_username:  KBNLdataservices
 
 url: "https://kbnldataservices.github.io"
-baseurl: "/public-docs/tree/gh-pages"
+baseurl: "/public-docs"
 
 #theme: null
 #remote_theme: rundocs/jekyll-rtd-theme
