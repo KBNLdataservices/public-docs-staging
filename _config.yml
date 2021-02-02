@@ -48,6 +48,7 @@ exclude:
   - bibliotheekinzicht/*
   - dbnl/*
   - delpher/*
+  - restrictedsets/*
   - updates.md
   - opensets/bookbindings.md
   - opensets/brinkman.md
