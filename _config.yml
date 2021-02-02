@@ -45,9 +45,9 @@ exclude:
   - copyright
   - dataservices
   - kbga
-  - bibliotheekinzicht
-  - dbnl
-  - delpher
+  - bibliotheekinzicht/*
+  - dbnl/*
+  - delpher/*
   - updates.md
   - opensets/bookbindings.md
   - opensets/brinkman.md
