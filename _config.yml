@@ -1,0 +1,50 @@
+title: KBNL dataservices documentation
+email: dataservices@kb.nl
+twitter_username: ookgezellig
+github_username:  ookgezellig
+
+url: "https://kbnldataservices.github.io"
+baseurl: "/public-docs"
+
+#theme: null
+#remote_theme: rundocs/jekyll-rtd-theme
+#github: metadata
+
+repository: kbnldataservices/public-docs
+
+# debug:
+#   compress: true
+#   dist: false
+#   shortcodes: true
+
+encoding: UTF-8
+
+readme_index:
+  with_frontmatter: true
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+  - jekyll-github-metadata
+
+exclude:
+  - Makefile
+  - CNAME
+  - LICENSE
+  - update.sh
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
+  - updates.md
+  - contact
+  - copyright
+  - dataservices
+  - kbga
+  - opensets/bookbindings.md
+  - opensets/brinkman.md
