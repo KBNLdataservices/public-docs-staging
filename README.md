@@ -1,3 +1,5 @@
 # KBNLdataservices / public-docs 
 
-Public documentation, code, insights, tips &amp; tricks about the public data of the KB, national library of the Netherlands 
+Public documentation, code, insights, tips &amp; tricks about the public datasets and collections of the KB, national library of the Netherlands 
+
+[https:/kbnldataservices.github.io/public-docs](https:/kbnldataservices.github.io/public-docs)
