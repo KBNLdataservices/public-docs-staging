@@ -1,5 +1,5 @@
 ---
-sort: 
+sort: 2
 ---
 # KB Collection highlights
 

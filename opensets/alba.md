@@ -1,5 +1,5 @@
 ---
-sort: 
+sort: 1
 ---
 
 # Alba amicorum
