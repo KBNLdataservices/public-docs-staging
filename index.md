@@ -15,7 +15,7 @@ Once you have tested & previewed your contributions and you think they are OK, y
 Once your submission has been approved by the admins of the productions repo, you will see your contributions in the [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs) production site.
 
 ## In summary
-**Staging & test environment**
+**Staging, preview and test environment**
 * Site: [https://kbnldataservices.github.io/public-docs-staging](https://kbnldataservices.github.io/public-docs-staging) (you are here now)
 * Repo: [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages) on the ```gh-pages``` branch
 
