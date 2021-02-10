@@ -62,7 +62,6 @@ exclude:
   - opensets/kbcode.md
   - opensets/kbnl-websitetexts.md
   - opensets/maps-atlasses.md
-  - opensets/medieval-manuscripts.md
   - opensets/nbt.md
   - opensets/newspaper-ngram.md
   - opensets/nta.md
