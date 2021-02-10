@@ -8,11 +8,11 @@ sort: 1
 
 *Staging & test site for [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs)* 
 
-You can use this site to preview the contributions you made on the the ```gh-pages``` branch of the [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages) repo.
+You can use this site to preview the contributions you made on the the ```gh-pages``` branch of the staging repo at [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages).
 
-Once you have tested & previewed your contributions and you think they are OK, you can submit them (via a pull request) to the ```gh-pages``` branch of the production repo at [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages) 
+Once you have tested & previewed your contributions and you think they are OK, you can submit them (via a pull request) to the ```gh-pages``` branch of the production repo at [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages). 
 
-Once your submission has been approved, you can see your contributions in the [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs) production site.
+Once your submission has been approved by the admins of the productions repo, you will see your contributions in the [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs) production site.
 
 ## In summary
 **Staging & test environment**
