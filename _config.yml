@@ -1,16 +1,16 @@
-title: KBNL dataservices documentation
+title: KBNL dataservices documentation STAGING
 email: dataservices@kb.nl
-twitter_username: KBNLdataservices
+twitter_username: KBdataservices
 github_username:  KBNLdataservices
 
 url: "https://kbnldataservices.github.io"
-baseurl: "/public-docs"
+baseurl: "/public-docs-staging"
 
 #theme: null
 #remote_theme: rundocs/jekyll-rtd-theme
 #github: metadata
 
-repository: kbnldataservices/public-docs
+repository: kbnldataservices/public-docs-staging
 
 # debug:
 #   compress: true
