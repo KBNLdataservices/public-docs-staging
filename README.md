@@ -7,9 +7,9 @@ sort: 1
 
 *Staging & test site for [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages)* 
 
-You can use this staging site to develop & test your contributions (typically .md files) to [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs)
+You can use this staging site to develop & test your contributions (typically .md files) for [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs)
 
-The code runing this staging site is on the ```gh-pages``` branch of [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages)
+To see/preview your contributions in this staging site, you must add them to the ```gh-pages``` branch of [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages)
 
 The code running the production site [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs) is on ```gh-pages``` branch of [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages)
 
