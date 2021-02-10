@@ -12,7 +12,7 @@ The code running the production site [https://kbnldataservices.github.io/public-
 
 ## In summary
 **Staging, test and preview environment**
-* Repo: [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages) on the ```gh-pages``` branch
+* Repo: [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages) on the ```gh-pages``` branch. You are here now. 
 * Site: [https://kbnldataservices.github.io/public-docs-staging](https://kbnldataservices.github.io/public-docs-staging)
 
 **Procuction environment**
