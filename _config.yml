@@ -49,7 +49,6 @@ exclude:
   - updates.md
   - opensets/bibliotheekinzicht
   - opensets/dbnl
-  - opensets/delpher
   - opensets/bookbindings.md
   - opensets/brinkman.md
   - opensets/corp-thes.md
