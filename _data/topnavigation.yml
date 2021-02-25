@@ -1,0 +1,8 @@
+# Sample site navigation bar links
+
+- title: Dataservices News
+  url: https://kbnldataservices.github.io/blog
+- title: Documentation
+  url: https://kbnldataservices.github.io/public-docs
+- title: About
+  url: https://kbnldataservices.github.io/about

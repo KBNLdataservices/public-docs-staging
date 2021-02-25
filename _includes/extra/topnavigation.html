@@ -1,0 +1,22 @@
+{% if site.data.topnavigation %}
+ <div class="topnavigation-wrapper" id="topnavigationWrapperID">
+   <ul class="site-topnav">
+   <li><a href="{{ site.url }}" class="site-logo" rel="home" title="KB Dataservices">
+          <img src="{{ site.topnavlogo | relative_url }}" class="site-logo-img" alt="KB Dataservices"></a></li> 
+   </ul>
+   <nav id="primary-topnav" class="site-topnav">
+      <ul class="textnav">
+       {%- for link in site.data.topnavigation -%}
+          {%- if link.url contains '://' -%}
+            {%- assign url = link.url -%}
+          {%- else -%}
+            {%- assign url = link.url | relative_url -%}
+          {%- endif -%}
+          <li><a href="{{ url }}">{{ link.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+  </div><!-- /.navigation-wrapper -->
+{% endif %}
+
+

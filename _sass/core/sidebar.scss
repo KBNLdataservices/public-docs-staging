@@ -1,10 +1,9 @@
 .sidebar {
   color: $theme-white;
   background: $theme-menu-background;
-
-  a {
-    text-decoration: none;
-  }
+  position:fixed;
+  border: 0px solid #55002f;
+  a {text-decoration: none;}
 
   li {
     list-style: none;

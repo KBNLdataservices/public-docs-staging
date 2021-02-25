@@ -4,23 +4,28 @@ $head-font: "Roboto-Slab", sans-serif;
 $mono-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 
 // theme color
-$theme-blue: #2980b9;
+$theme-blue: #347698;
 $theme-red: #e74c3c;
 $theme-green: #1abc9c;
 $theme-orange: #e67e22;
-
 $theme-white: lighten($black, 99%);
 $theme-black: lighten($black, 15%);
 
+/* Custom added OJ 19-2-2021 */
+$theme-delpher-teal: #01415b;
+$theme-delpher-blue: #347698;
+$theme-delpher-ocean: #9cdbd9;
+$theme-delpher-pink: #f37d8d;;
+
 // theme link
-$theme-link: $blue;
-$theme-link-hover: lighten($blue, 10%);
-$theme-link-visited: lighten($purple, 10%);
+$theme-link: $theme-delpher-teal;
+$theme-link-hover: $theme-delpher-teal;
+$theme-link-visited: $theme-black;
 
 // theme code
 $theme-code: $theme-black;
-$theme-code-background: $bg-gray;
-$theme-code-inline: $theme-red;
+$theme-code-background: #f6f8fa;
+$theme-code-inline: $theme-black;
 $theme-code-inline-background: darken($theme-white, 2%);
 
 // theme mask
@@ -28,7 +33,20 @@ $theme-mask-white: transparentize($theme-white, 0.9);
 $theme-mask-black: transparentize($theme-black, 0.9);
 
 // theme menu
-$theme-menu-width-sm: 85%;
-$theme-menu-width: 300px;
-$theme-menu-background: darken($theme-black, 10%);
+$theme-menu-width-sm: 50%;
+$theme-menu-width: 320px;
+$theme-menu-background: darken($theme-delpher-teal, 10%);
 $theme-menu-active-background: darken($theme-blue, 15%);
+
+/* ========================================================================== */
+/* Custom added OJ 10-2-2021 */
+
+$topnav-color: #000000; 
+$topnav-background-color: $theme-delpher-ocean; 
+
+/* Site logo */
+$site-logo-width: 0.5*$width-sm !default;
+$site-logo-height: 0.213 * $site-logo-width; 
+
+/* End -- Custom added OJ 10-2-2021 */
+/* ========================================================================== */

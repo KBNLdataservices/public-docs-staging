@@ -13,6 +13,10 @@
 @import "lib/@primer/css/markdown";
 @import "lib/rouge/github";
 
+// extra - topnav 
+@import "extra/topnav";
+@import "extra/bottomfooter";
+
 // fonts
 @import "font-face";
 @import "lib/font-awesome/variables";
@@ -35,3 +39,5 @@
 
 // utilities
 @import "lib/@primer/css/utilities";
+
+

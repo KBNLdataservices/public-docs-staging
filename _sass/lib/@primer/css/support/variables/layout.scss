@@ -103,8 +103,10 @@ $grid-gutter: 10px !default;
 
 // Breakpoint widths
 $width-xs: 0 !default;
+// Tiny
+$width-ti: 180px !default; 
 // Small screen / phone
-$width-sm: 544px !default;
+$width-sm: 320px !default;
 // Medium screen / tablet
 $width-md: 768px !default;
 // Large screen / desktop (980 + (16 * 2)) <= container + gutters
@@ -113,6 +115,7 @@ $width-lg: 1012px !default;
 $width-xl: 1280px !default;
 
 // Responsive container widths
+$container-ti: $width-ti !default;
 $container-sm: $width-sm !default;
 $container-md: $width-md !default;
 $container-lg: $width-lg !default;
@@ -120,6 +123,7 @@ $container-xl: $width-xl !default;
 
 // Breakpoints in the form (name: length)
 $breakpoints: (
+  ti: $width-ti,
   sm: $width-sm,
   md: $width-md,
   lg: $width-lg,
@@ -139,6 +143,7 @@ $breakpoints: (
 // ```
 $responsive-variants: (
   "": "",
+  ti: "-ti",
   sm: "-sm",
   md: "-md",
   lg: "-lg",
@@ -147,3 +152,4 @@ $responsive-variants: (
 
 // responive utility position values
 $responsive-positions: (static, relative, absolute, fixed, sticky) !default;
+

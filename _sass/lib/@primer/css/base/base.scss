@@ -22,7 +22,7 @@ body {
 
 a {
   color: $text-blue;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover {
     text-decoration: underline;

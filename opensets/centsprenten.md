@@ -5,6 +5,22 @@ sort: 3
 # Catchpenny prints (Centsprenten)
 <img src="../assets/images/collage_prentenboeken1810-1880.jpg" alt="banner" width="50%" align="right"/>
 
+Tesy inline code ``` ffdgdgfdg ```
+
+highlighter-rouge text 
+<code class="highlighter-rouge">This is inline code 1 -- This is inline code 1 </code>
+
+Inlimne comment 
+
+```
+This is inline code 2 -- This is inline code 2 
+This is inline code 2 -- This is inline code 2 
+This is inline code 2 -- This is inline code 2 
+
+This is inline code 2 -- This is inline code 2 
+``` 
+
+
 ## Description
 This collection of 1.280 catchpenny prints gives a good picture of the topics the population was interested in. For researchers and people interested in the history of the Netherlands this is a real treasure-house containing images and texts from the past. This remarkable heritage is now digitally available so that everyone can become acquainted with it.
 
@@ -24,35 +40,32 @@ This dataset is accessible via 4 different websites:
 * OAI-PMH (XML): [http://services.kb.nl/mdo/oai?verb=ListRecords&set=GVNRC&metadataPrefix=dcx&from=2012-08-15T11:11:22.171Z&until=2012-08-15T11:11:41.234Z](http://services.kb.nl/mdo/oai?verb=ListRecords&set=GVNRC&metadataPrefix=dcx&from=2012-08-15T11:11:22.171Z&until=2012-08-15T11:11:41.234Z) (first 50 records) 
 
 ### 2) Linked open data 
-This dataset is also available as linked open data, as described at [http://data.bibliotheken.nl/id/dataset/rise-centsprenten](http://data.bibliotheken.nl/id/dataset/rise-centsprenten)
+This dataset is also available as linked open data, as described at [http://data.bibliotheken.nl/id/dataset/rise-centsprenten](http://data.bibliotheken.nl/id/dataset/rise-centsprenten), or in [RDF/XML](http://data.bibliotheken.nl/doc/dataset/rise-centsprenten.rdf) or [JSON](http://data.bibliotheken.nl/doc/dataset/rise-centsprenten.json))
 
 Example items: 
-* [http://data.bibliotheken.nl/doc/gvn/KONB14Borms0007](http://data.bibliotheken.nl/doc/gvn/KONB14Borms0007)
-* [http://data.bibliotheken.nl/doc/gvn/KONB14Borms0023](http://data.bibliotheken.nl/doc/gvn/KONB14Borms0023)
+* [http://data.bibliotheken.nl/doc/gvn/KONB14Borms0007](http://data.bibliotheken.nl/doc/gvn/KONB14Borms0007) ([RDF/XML](http://data.bibliotheken.nl/doc/gvn/KONB14Borms0007.rdf), [JSON](http://data.bibliotheken.nl/doc/gvn/KONB14Borms0007.json))
+* [http://data.bibliotheken.nl/doc/gvn/KONB14Borms0023](http://data.bibliotheken.nl/doc/gvn/KONB14Borms0023) ([RDF/XML](http://data.bibliotheken.nl/doc/gvn/KONB14Borms0023.rdf), [JSON](http://data.bibliotheken.nl/doc/gvn/KONB14Borms0023.json))
 
 #### SPARQL queries
 1) Number of prints: 1.255
 ```sparql
-SELECT COUNT(?part) AS ?aantal WHERE {
-   ?print schema:isPartOf ?part.
-   FILTER (STRSTARTS(STR(?part), 'Centsprenten van de Koninklijke Bibliotheek'))
-} 
+SELECT COUNT(?print) AS ?aantal WHERE {
+   ?print schema:isPartOf "Centsprenten van de Koninklijke Bibliotheek"@nl . }
 ```
-*[Try it!](http://data.bibliotheken.nl/sparql?qtxt=SELECT+COUNT(%3Fpart)+AS+%3Faantal+WHERE+&#123;%0D%0A+++%3Fprint+schema%3AisPartOf+%3Fpart.%0D%0A+++FILTER+(STRSTARTS(STR(%3Fpart)%2C+'Centsprenten+van+de+Koninklijke+Bibliotheek'))%0D%0A&#125;)* - *[Result (HTML)](http://data.bibliotheken.nl/sparql?query=SELECT+COUNT(%3Fpart)+AS+%3Faantal+WHERE+&#123;%0D%0A+++%3Fprint+schema%3AisPartOf+%3Fpart.%0D%0A+++FILTER+(STRSTARTS(STR(%3Fpart)%2C+'Centsprenten+van+de+Koninklijke+Bibliotheek'))%0D%0A&#125;)* - *[JSON](http://data.bibliotheken.nl/sparql?default-graph-uri=&query=SELECT+COUNT%28%3Fpart%29+AS+%3Faantal+WHERE+%7B%0D%0A+++%3Fprint+schema%3AisPartOf+%3Fpart.%0D%0A+++FILTER+%28STRSTARTS%28STR%28%3Fpart%29%2C+%27Centsprenten+van+de+Koninklijke+Bibliotheek%27%29%29%0D%0A%7D&format=application%2Fsparql-results%2Bjson&timeout=0&debug=on&run=+Run+Query+)*
+*[Try it!](http://data.bibliotheken.nl/sparql?qtxt=SELECT+COUNT%28%3Fprint%29+AS+%3Faantal+WHERE+%7B%0D+++%3Fprint+schema%3AisPartOf+%22Centsprenten+van+de+Koninklijke+Bibliotheek%22%40nl+.+%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+)* - *[Result (HTML)](http://data.bibliotheken.nl/sparql?default-graph-uri=&query=SELECT+COUNT%28%3Fprint%29+AS+%3Faantal+WHERE+%7B%0D%0A+++%3Fprint+schema%3AisPartOf+%22Centsprenten+van+de+Koninklijke+Bibliotheek%22%40nl+.+%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+)* - *[JSON](http://data.bibliotheken.nl/sparql?default-graph-uri=&query=SELECT+COUNT%28%3Fprint%29+AS+%3Faantal+WHERE+%7B%0D%0A+++%3Fprint+schema%3AisPartOf+%22Centsprenten+van+de+Koninklijke+Bibliotheek%22%40nl+.+%7D%0D%0A&format=application%2Fsparql-results%2Bjson&timeout=0&debug=on&run=+Run+Query+)*
 
 2) Table of all 1.255 prints with labels, descriptions and images
 ```sparql
 SELECT ?print ?label ?description ?image WHERE {
-   ?print schema:isPartOf ?part.
-   FILTER (STRSTARTS(STR(?part), 'Centsprenten van de Koninklijke Bibliotheek')).
-   ?print  rdfs:label ?label.
+   ?print schema:isPartOf "Centsprenten van de Koninklijke Bibliotheek"@nl.
+   ?print rdfs:label ?label.
    ?print schema:description ?description.
    ?print schema:image ?image.
 } 
 ```
-*[Try it!](http://data.bibliotheken.nl/sparql?qtxt=SELECT+%3Fprint+%3Flabel+%3Fdescription+%3Fimage+WHERE+%7B%0D%0A+++%3Fprint+schema%3AisPartOf+%3Fpart.%0D%0A+++FILTER+%28STRSTARTS%28STR%28%3Fpart%29%2C+%27Centsprenten+van+de+Koninklijke+Bibliotheek%27%29%29.%0D%0A+++%3Fprint++rdfs%3Alabel+%3Flabel.%0D%0A+++%3Fprint+schema%3Adescription+%3Fdescription.%0D%0A+++%3Fprint+schema%3Aimage+%3Fimage.%0D%0A%0D%0A%7D)* - *[Result (HTML)](http://data.bibliotheken.nl/sparql?default-graph-uri=&query=SELECT+%3Fprint+%3Flabel+%3Fdescription+%3Fimage+WHERE+%7B%0D%0A+++%3Fprint+schema%3AisPartOf+%3Fpart.%0D%0A+++FILTER+%28STRSTARTS%28STR%28%3Fpart%29%2C+%27Centsprenten+van+de+Koninklijke+Bibliotheek%27%29%29.%0D%0A+++%3Fprint++rdfs%3Alabel+%3Flabel.%0D%0A+++%3Fprint+schema%3Adescription+%3Fdescription.%0D%0A+++%3Fprint+schema%3Aimage+%3Fimage.%0D%0A%0D%0A%7D+&format=text%2Fx-html%2Btr&timeout=0&debug=on&run=+Run+Query+)* - *[JSON](http://data.bibliotheken.nl/sparql?default-graph-uri=&query=SELECT+%3Fprint+%3Flabel+%3Fdescription+%3Fimage+WHERE+%7B%0D%0A+++%3Fprint+schema%3AisPartOf+%3Fpart.%0D%0A+++FILTER+%28STRSTARTS%28STR%28%3Fpart%29%2C+%27Centsprenten+van+de+Koninklijke+Bibliotheek%27%29%29.%0D%0A+++%3Fprint++rdfs%3Alabel+%3Flabel.%0D%0A+++%3Fprint+schema%3Adescription+%3Fdescription.%0D%0A+++%3Fprint+schema%3Aimage+%3Fimage.%0D%0A%0D%0A%7D+&format=application%2Fsparql-results%2Bjson&timeout=0&debug=on&run=+Run+Query+)*
+*[Try it!](http://data.bibliotheken.nl/sparql?qtxt=SELECT+%3Fprint+%3Flabel+%3Fdescription+%3Fimage+WHERE+%7B%0D%0A+++%3Fprint+schema%3AisPartOf+"Centsprenten+van+de+Koninklijke+Bibliotheek"%40nl.%0D%0A+++%3Fprint++rdfs%3Alabel+%3Flabel.%0D%0A+++%3Fprint+schema%3Adescription+%3Fdescription.%0D%0A+++%3Fprint+schema%3Aimage+%3Fimage.%0D%0A%7D+&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+)* - *[Result (HTML)](http://data.bibliotheken.nl/sparql?default-graph-uri=&query=SELECT+%3Fprint+%3Flabel+%3Fdescription+%3Fimage+WHERE+%7B%0D%0A+++%3Fprint+schema%3AisPartOf+%22Centsprenten+van+de+Koninklijke+Bibliotheek%22%40nl.%0D%0A+++%3Fprint++rdfs%3Alabel+%3Flabel.%0D%0A+++%3Fprint+schema%3Adescription+%3Fdescription.%0D%0A+++%3Fprint+schema%3Aimage+%3Fimage.%0D%0A%7D+&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+)* - *[JSON](http://data.bibliotheken.nl/sparql?default-graph-uri=&query=SELECT+%3Fprint+%3Flabel+%3Fdescription+%3Fimage+WHERE+%7B%0D%0A+++%3Fprint+schema%3AisPartOf+%22Centsprenten+van+de+Koninklijke+Bibliotheek%22%40nl.%0D%0A+++%3Fprint++rdfs%3Alabel+%3Flabel.%0D%0A+++%3Fprint+schema%3Adescription+%3Fdescription.%0D%0A+++%3Fprint+schema%3Aimage+%3Fimage.%0D%0A%7D+&format=application%2Fsparql-results%2Bjson&timeout=0&debug=on&run=+Run+Query+)*
 
-We can also display this table embedded into this page, using a HTML-iframe. We do this by using [this federated query](https://w.wiki/wbK) in the Wikidata Query Service (the KB LOD service does not support the use of iframes to display its results)
+We can also display this table embedded into this page, using a HTML-iframe. We do this by using [this federated query](https://w.wiki/$2b) in the Wikidata Query Service (the KB LOD service does not support the use of iframes to display its results)
 ```sparql
 PREFIX schema: <http://schema.org/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -60,18 +73,17 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT DISTINCT ?print ?label ?description ?image WHERE {
   
   SERVICE <http://data.bibliotheken.nl/sparql>{
-    ?print schema:isPartOf ?part.
-    FILTER (STRSTARTS(STR(?part), 'Centsprenten van de Koninklijke Bibliotheek')).
+    ?print schema:isPartOf "Centsprenten van de Koninklijke Bibliotheek"@nl.
     ?print rdfs:label ?label.
     ?print schema:description ?description.
     ?print schema:image ?image.
 }}
 ORDER BY ?print
 ```
-*[Try it!](https://w.wiki/wbK)* - *[Result](https://w.wiki/wbJ)*
+*[Try it!](https://w.wiki/$2b)* - *[Result](https://w.wiki/$2e)*
 
-The embbed table looks like this. Note than we can used the embedded search box to narrow down the results:
-<iframe style="position: float; height: 400px; width: 100%; border: 1px; font-size: 10px" src="https://query.wikidata.org/embed.html#PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0A%0ASELECT%20DISTINCT%20%3Fprint%20%3Flabel%20%3Fdescription%20%3Fimage%20WHERE%20%7B%0A%20%20%0A%20%20SERVICE%20%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fsparql%3E%7B%0A%20%20%20%20%3Fprint%20schema%3AisPartOf%20%3Fpart.%0A%20%20%20%20FILTER%20(STRSTARTS(STR(%3Fpart)%2C%20'Centsprenten%20van%20de%20Koninklijke%20Bibliotheek')).%0A%20%20%20%20%3Fprint%20rdfs%3Alabel%20%3Flabel.%0A%20%20%20%20%3Fprint%20schema%3Adescription%20%3Fdescription.%0A%20%20%20%20%3Fprint%20schema%3Aimage%20%3Fimage.%0A%7D%7D%0AORDER%20BY%20%3Fprint%0A%0A%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+The embbedded table looks like this. Note than we can used the embedded search box to narrow down the results:
+<iframe style="position: float; height: 400px; width: 100%; border: 1px; font-size: 10px" src="https://query.wikidata.org/embed.html#PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0A%0ASELECT%20DISTINCT%20%3Fprint%20%3Flabel%20%3Fdescription%20%3Fimage%20WHERE%20%7B%0A%20%20%0A%20%20SERVICE%20%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fsparql%3E%7B%0A%20%20%20%20%3Fprint%20schema%3AisPartOf%20%22Centsprenten%20van%20de%20Koninklijke%20Bibliotheek%22%40nl.%0A%20%20%20%20%3Fprint%20rdfs%3Alabel%20%3Flabel.%0A%20%20%20%20%3Fprint%20schema%3Adescription%20%3Fdescription.%0A%20%20%20%20%3Fprint%20schema%3Aimage%20%3Fimage.%0A%7D%7D%0AORDER%20BY%20%3Fprint" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 <br clear="all"/>
 
 3) All prints created between 1830 and 1860, and their creatiors

@@ -204,8 +204,7 @@ $(window).bind("hashchange", () =>
 );
 
 $(document).on("scroll", function () {
-  var topnavigationHeight = $("#topnavigationWrapperID").outerHeight();
-  let start = $(this).scrollTop() + topnavigationHeight + 30;
+  let start = $(this).scrollTop() + 5;
   let items = [];
 
   $(".markdown-body")

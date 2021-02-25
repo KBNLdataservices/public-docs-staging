@@ -1,0 +1,52 @@
+# Footer Links + social icons
+- block: kb_dataservices
+  header: KB Dataservices 
+  links:
+    - title: About
+      url:  https://kbnldataservices.github.io//about
+    - title: Our data
+      url: https://kbnldataservices.github.io//our-data
+    - title: Data reuse
+      url: https://kbnldataservices.github.io//data-reuse
+
+- block: resources
+  header: Resources
+  links:
+    - title: Documentation
+      url: https://kbnldataservices.github.io/public-docs
+    - title: News
+      url: https://kbnldataservices.github.io/blog
+    - title: Github
+      url: https://kbnldataservices.github.io/github
+
+- block: contact
+  header: Contact
+  links:
+    - title: Email
+      url: https://kbnldataservices.github.io/email
+    - title: Twitter
+      url: https://kbnldataservices.github.io/twitter
+
+- block: legal
+  header: Legal
+  links:
+    - title: Terms &amp; Conditions
+      url: https://kbnldataservices.github.io/terms-and-conditions
+    - title: Privacy Policy
+      url: https://kbnldataservices.github.io/privacy-policy
+
+- block: footer_social_links
+  header: Follow us
+  links:
+    - title: Contact
+      url: https://kbnldataservices.github.io/email
+      icon: fas fa-envelope
+    - title: Feed
+      url: https://kbnldataservices.github.io/atom.xml
+      icon: fas fa-rss-square
+    - title: Twitter
+      url: https://twitter.com/KBdataservices
+      icon: fab fa-twitter-square
+    - title: Github
+      url: https://github.com/KBNLdataservices
+      icon: fab fa-github-square

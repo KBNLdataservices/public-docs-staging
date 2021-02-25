@@ -1,20 +1,30 @@
 title: KBNL dataservices documentation STAGING
-email: dataservices@kb.nl
-twitter_username: KBdataservices
-github_username:  KBNLdataservices
+basetitle: "KB Dataservices"
+
+description: "Public documentation, code, insights, tips & tricks about the public datasets and collections of the KB, national library of the Netherlands."
+basedescription: "dataservices of the KB, the national library of the Netherlands"
 
 url: "https://kbnldataservices.github.io"
 baseurl: "/public-docs-staging"
 
-#theme: null
+
+email: dataservices@kb.nl
+twitter_username: KBdataservices
+github_username:  KBNLdataservices
+
+
+#theme: theme-red
 #remote_theme: rundocs/jekyll-rtd-theme
-#github: metadata
+#github: [metadata]
 
 repository: kbnldataservices/public-docs-staging
 
-# debug:
+topnavlogo: "/assets/images/logo-kb-zwart-transparant.png"
+
+
+#debug:
 #   compress: true
-#   dist: false
+  #- dist: false #enables use of local /assets/js/theme.js
 #   shortcodes: true
 
 encoding: UTF-8
@@ -27,6 +37,13 @@ plugins:
   - jekyll-avatar
   - jekyll-mentions
   - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
 
 exclude:
   - Makefile
@@ -68,3 +85,4 @@ exclude:
   - opensets/stcn.md
   - opensets/web-collection-chinese-netherlands.md
   - opensets/web-collection-internet-archaeology.md
+

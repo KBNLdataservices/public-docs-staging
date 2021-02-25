@@ -53,6 +53,15 @@
 }
 
 @font-face {
+  font-family: "SFMono-Regular";
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  src: url("fonts/SFMono-Regular.ttf") format("ttf"),
+    url("fonts/SFMono-Regular.ttf") format("ttf");
+}
+
+@font-face {
   font-family: "FontAwesome";
   font-weight: normal;
   font-style: normal;

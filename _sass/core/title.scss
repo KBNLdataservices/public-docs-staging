@@ -1,12 +1,14 @@
 .title {
+  padding-bottom:200px;	
   // 600
   font-weight: $font-weight-bold;
-  color: $theme-white;
+  color: $theme-black;
 
   a {
-    color: $theme-white;
+    color: $theme-black;
     &:hover {
       background: $theme-mask-white;
     }
   }
+
 }
