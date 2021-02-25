@@ -1,4 +1,4 @@
-title: KBNL dataservices documentation STAGING
+title: KB Dataservices Documentation STAGING
 basetitle: "KB Dataservices"
 
 description: "Public documentation, code, insights, tips & tricks about the public datasets and collections of the KB, national library of the Netherlands."
@@ -63,26 +63,3 @@ exclude:
   - dataservices
   - kbga
   - restrictedsets
-  - updates.md
-  - opensets/bibliotheekinzicht
-  - opensets/dbnl
-  - opensets/bookbindings.md
-  - opensets/brinkman.md
-  - opensets/corp-thes.md
-  - opensets/digger.md
-  - opensets/entangled-histories.md
-  - opensets/europeana-newspapers-ner.md
-  - opensets/example-set.md
-  - opensets/ggt.md
-  - opensets/ground-truth-impact .md
-  - opensets/kbcode.md
-  - opensets/kbnl-websitetexts.md
-  - opensets/maps-atlasses.md
-  - opensets/nbt.md
-  - opensets/newspaper-ngram.md
-  - opensets/nta.md
-  - opensets/picturebooks.md
-  - opensets/stcn.md
-  - opensets/web-collection-chinese-netherlands.md
-  - opensets/web-collection-internet-archaeology.md
-
