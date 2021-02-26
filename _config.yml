@@ -6,7 +6,7 @@ basedescription: "dataservices of the KB, the national library of the Netherland
 
 url: "https://kbnldataservices.github.io"
 baseurl: "/public-docs-staging"
-
+homeurl: "https://kbnldataservices.github.io/kbnldataservices.github.io-staging"
 
 email: dataservices@kb.nl
 twitter_username: KBdataservices
