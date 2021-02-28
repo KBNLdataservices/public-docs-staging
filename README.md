@@ -15,7 +15,7 @@ The [public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages)
 
 **1) Blog - news and updates**
 * Blog home / latest articles: [https://kbnldataservices.github.io/blog](https://kbnldataservices.github.io/blog), redirected from [https://kbnldataservices.github.io](https://kbnldataservices.github.io), corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/index.md) in the repo
-* Blog posts: https://kbnldataservices.github.io/blog/posts/*some-post-title*, corresponding to [this folder](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages/_posts) in the repo 
+* Blog posts: https://kbnldataservices.github.io/blog/posts/some-post-title, corresponding to [this folder](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages/_posts) in the repo 
 * Blog posts groupings: 
   * Pinned articles: [https://kbnldataservices.github.io/blog/pinned](https://kbnldataservices.github.io/blog/pinned/), corresponding to [this folder](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages/_pinned) and [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/pinned.md) in the repo 
   * Article archive, by year: [https://kbnldataservices.github.io/blog/posts](https://kbnldataservices.github.io/blog/posts), corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/posts-grid.md) in the repo 
