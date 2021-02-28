@@ -10,18 +10,18 @@ Before you submit your contribution to that production repo (using a pull reques
 
 The code running the production site [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs) is on ```gh-pages``` branch of the [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages) production repo.
 
-## Related repo and subsite
-For the production environment, the [public-docs](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages) repo is part of the wider [KB Dataservices Github account](https://github.com/KBNLdataservices). Besides this documentation repo, there is also the [kbnldataservices.github.io](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages) repo, that from its ```gh-pages``` branch serves [https://kbnldataservices.github.io](https://kbnldataservices.github.io). This subsite holds the following pages: 
+## Related repo and subsite - blog & general pages
+The [public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages) repo - and its related [public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages) repo you are currently in - are part of the wider [KB Dataservices Github account](https://github.com/KBNLdataservices). Besides this documentation repo, there is also the [kbnldataservices.github.io](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages) repo, that from its ```gh-pages``` branch serves [https://kbnldataservices.github.io](https://kbnldataservices.github.io). This repo and subsite hold the following pages: 
 
-**Blog - news and updates **
-* Blog home page: [https://kbnldataservices.github.io/blog](https://kbnldataservices.github.io/blog), corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/index.md) in the repo
-* Blog posts: https://kbnldataservices.github.io/blog/*, corresponding to [this folder](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages/_posts) in the repo 
-* Blog posts groups: 
-  * Pinned: [https://kbnldataservices.github.io/blog/pinned], corresponding to [this folder]() in the repo 
-  * Archive, by year: [https://kbnldataservices.github.io/blog/posts-grid], corresponding to [this file]() in the repo 
-  * Categories [https://kbnldataservices.github.io/blog/categories-grid], corresponding to [this file]() in the repo 
-  * Tags: [https://kbnldataservices.github.io/blog/tags-grid], corresponding to [this file]() in the repo 
-  * Search: [https://kbnldataservices.github.io/blog/search], corresponding to [this file]() in the repo 
+**Blog - news and updates**
+* Blog home page: [https://kbnldataservices.github.io/blog](https://kbnldataservices.github.io/blog), redirected from [https://kbnldataservices.github.io](https://kbnldataservices.github.io), corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/index.md) in the repo
+* Blog posts: https://kbnldataservices.github.io/blog/<post title>, corresponding to [this folder](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages/_posts) in the repo 
+* Blog posts groupings: 
+  * Pinned: [https://kbnldataservices.github.io/blog/pinned], corresponding to [this folder](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages/_pinned) and [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/pinned.md) in the repo 
+  * Archive, by year: [https://kbnldataservices.github.io/blog/posts-grid], corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/posts-grid.md) in the repo 
+  * Categories [https://kbnldataservices.github.io/blog/categories-grid], corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/categories-grid.md) in the repo 
+  * Tags: [https://kbnldataservices.github.io/blog/tags-grid], corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/tags-grid.md) in the repo 
+  * Search: [https://kbnldataservices.github.io/blog/search], corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/search.md) in the repo 
 
 **General pages**
 *Website
