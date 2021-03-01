@@ -10,7 +10,7 @@ sort: 1
 
 You can use this site to preview the contributions you made on the the ```gh-pages``` branch of the staging repo at [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages).
 
-Once you have tested & previewed your contributions and you think they are OK, you can submit them (via a pull request) to the ```gh-pages``` branch of the production repo at [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages). 
+Once you have tested & previewed your contributions and you think they are OK, you can submit them (via a pull request on a dedicated branch) to the production repo at [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages). 
 
 Once your submission has been approved by the admins of the productions repo, you will see your contributions in the  production site at [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs).
 
