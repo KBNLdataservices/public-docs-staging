@@ -10,9 +10,9 @@ sort: 1
 
 You can use this site to test and preview the contributions (typically .md files) you made on the the ```gh-pages``` branch of the staging repo at [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages).
 
-Once you have tested & previewed your contributions and you think they are OK, you can submit them (via a pull request with a dedicated branch) to the production repo at [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages). 
+Once you have tested & previewed your contributions and you think they are OK for production, you can submit them (via a pull request with a dedicated branch) to the production repo at [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages). 
 
-Once your submission has been approved by the admins of the production repo, you will them in the  production site at [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs).
+Once your submission has been approved by the admins of the production repo, you will see them in the  production site at [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs).
 
 
 ## Related subsite and repo - blog & general pages
@@ -34,7 +34,7 @@ Besides this documentation subsite, there is also the [kbnldataservices.github.i
 * Home page - https://kbnldataservices.github.io, redirected to [https://kbnldataservices.github.io/blog](https://kbnldataservices.github.io/blog), corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/index.md) in the repo 
 * General pages: [About](https://kbnldataservices.github.io/about), [Our data](https://kbnldataservices.github.io/our-data), [Terms & Conditions](https://kbnldataservices.github.io/terms-and-conditions) and the other links in the footer. These correspond to the similarly named .md files in [this folder](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages/_pages) in the repo.
 
-Similarly, the same construction is available in the kbnldataservices.github.io [staging repo](https://github.com/KBNLdataservices/kbnldataservices.github.io-staging/tree/gh-pages) and its corresponding [staging website](https://kbnldataservices.github.io/kbnldataservices.github.io-staging). 
+Similarly, the same construction is available in the kbnldataservices.github.io [staging repo](https://github.com/KBNLdataservices/kbnldataservices.github.io-staging/tree/gh-pages) and its corresponding [staging subsite](https://kbnldataservices.github.io/kbnldataservices.github.io-staging). 
 
 ## In summary: documentation, blog and general pages 
 

@@ -4,7 +4,7 @@
 
 *Staging & test repo for [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages)* 
 
-You can use the current ```gh-pages``` branch of this staging repo to develop & test your contributions (typically .md files) for the ```gh-pages``` branch of the production repo at [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages). 
+You can use the current ```gh-pages``` branch of this staging repo to develop & test your contributions (typically .md files for documentation, code, manuals etc.) for the ```gh-pages``` branch of the production repo at [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages). 
 
 Before you submit your contribution to that production repo (using a pull request with a dedicated branch), you can visualize/preview it via the staging site at [https://kbnldataservices.github.io/public-docs-staging](https://kbnldataservices.github.io/public-docs-staging). 
 
@@ -28,7 +28,7 @@ The [public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages)
 * General pages: [About](https://kbnldataservices.github.io/about), [Our data](https://kbnldataservices.github.io/our-data), [Terms & Conditions](https://kbnldataservices.github.io/terms-and-conditions) and the other links in the footer. These correspond to the similarly named .md files in [this folder](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages/_pages) in the repo.
 
 
-Similarly, the same construction is available in the kbnldataservices.github.io [staging repo](https://github.com/KBNLdataservices/kbnldataservices.github.io-staging/tree/gh-pages) and its corresponding [staging website](https://kbnldataservices.github.io/kbnldataservices.github.io-staging). 
+Similarly, the same construction is available in the kbnldataservices.github.io [staging repo](https://github.com/KBNLdataservices/kbnldataservices.github.io-staging/tree/gh-pages) and its corresponding [staging subsite](https://kbnldataservices.github.io/kbnldataservices.github.io-staging). 
 
 ## In summary: documentation, blog and general pages 
 
