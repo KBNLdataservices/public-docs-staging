@@ -8,7 +8,7 @@ sort: 1
 
 *Staging & test site for [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs)* 
 
-You can use this site to test and preview the contributions (typically .md files) you made on the the ```gh-pages``` branch of the staging repo at [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages).
+You can use this site to test and preview the contributions (typically .md files for documentation, code, manuals etc.) you made on the the ```gh-pages``` branch of the staging repo at [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages).
 
 Once you have tested & previewed your contributions and you think they are OK for production, you can submit them (via a pull request with a dedicated branch) to the production repo at [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages). 
 
