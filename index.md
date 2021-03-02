@@ -34,7 +34,7 @@ Besides this documentation subsite, there is also the [kbnldataservices.github.i
 * Home page - https://kbnldataservices.github.io, redirected to [https://kbnldataservices.github.io/blog](https://kbnldataservices.github.io/blog), corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/index.md) in the repo 
 * General pages: [About](https://kbnldataservices.github.io/about), [Our data](https://kbnldataservices.github.io/our-data), [Terms & Conditions](https://kbnldataservices.github.io/terms-and-conditions) and the other links in the footer. These correspond to the similarly named .md files in [this folder](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages/_pages) in the repo.
 
-Similarly, the same construction is available in the [staging repo](https://github.com/KBNLdataservices/kbnldataservices.github.io-staging/tree/gh-pages) and its corresponding [staging website](https://kbnldataservices.github.io/kbnldataservices.github.io-staging). 
+Similarly, the same construction is available in the kbnldataservices.github.io [staging repo](https://github.com/KBNLdataservices/kbnldataservices.github.io-staging/tree/gh-pages) and its corresponding [staging website](https://kbnldataservices.github.io/kbnldataservices.github.io-staging). 
 
 ## In summary: documentation, blog and general pages 
 
