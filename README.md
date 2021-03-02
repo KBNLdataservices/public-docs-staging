@@ -11,7 +11,9 @@ Before you submit your contribution to that production repo (using a pull reques
 The code running the production site [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs) is on ```gh-pages``` branch of the [https://github.com/KBNLdataservices/public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages) production repo.
 
 ## Related repo and subsite - blog & general pages
-The [public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages) repo - and its related [public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages) repo you are currently in - are part of the wider [KB Dataservices Github account](https://github.com/KBNLdataservices). Besides this documentation repo, there is also the [kbnldataservices.github.io](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages) repo, that from its ```gh-pages``` branch serves [https://kbnldataservices.github.io](https://kbnldataservices.github.io). This repo and subsite hold the following two groups of pages: 
+The [public-docs](https://github.com/KBNLdataservices/public-docs/tree/gh-pages) repo - and its related [public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages) repo you are currently in - are part of the wider [KB Dataservices Github account](https://github.com/KBNLdataservices). 
+
+Besides this documentation repo, there is also the [kbnldataservices.github.io](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages) repo, that from its ```gh-pages``` branch serves [https://kbnldataservices.github.io](https://kbnldataservices.github.io). This repo and subsite hold the following two groups of pages: 
 
 **1) Blog - news and updates**
 * Blog home / latest articles: [https://kbnldataservices.github.io/blog](https://kbnldataservices.github.io/blog), redirected from [https://kbnldataservices.github.io](https://kbnldataservices.github.io), corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/index.md) in the repo

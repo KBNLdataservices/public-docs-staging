@@ -18,7 +18,7 @@ Once your submission has been approved by the admins of the production repo, you
 ## Related subsite and repo - blog & general pages
 The [public-docs](https://kbnldataservices.github.io/public-docs) subsite - and its related [public-docs-staging](https://kbnldataservices.github.io/public-docs-staging/) subsite you are currently on - are part of the wider [KB Dataservices Github account](https://github.com/KBNLdataservices). 
 
-Besides this documentation subsite, there is also the [kbnldataservices.github.io](https://kbnldataservices.github.io/kbnldataservices.github.io) subsite, which is served from the ```gh-pages``` branch of the  [https://kbnldataservices.github.io](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages) repo. This subsite and repo hold the following two groups of pages: 
+Besides this documentation subsite, there is also the [https://kbnldataservices.github.io](https://kbnldataservices.github.io) subsite, which is served from the ```gh-pages``` branch of the  [kbnldataservices.github.io](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages) repo. This subsite and repo hold the following two groups of pages: 
 
 **1) Blog - news and updates**
 * Blog home / latest articles: [https://kbnldataservices.github.io/blog](https://kbnldataservices.github.io/blog), redirected from [https://kbnldataservices.github.io](https://kbnldataservices.github.io), corresponding to [this file](https://github.com/KBNLdataservices/kbnldataservices.github.io/blob/gh-pages/_pages/index.md) in the repo
