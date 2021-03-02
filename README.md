@@ -34,7 +34,7 @@ Similarly, the same construction is available in the kbnldataservices.github.io 
 
 ### Documentation
 **Staging, test and preview environment**
-* Repo: [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages) on the ```gh-pages``` branch (you are here now). 
+* Repo: [https://github.com/KBNLdataservices/public-docs-staging](https://github.com/KBNLdataservices/public-docs-staging/tree/gh-pages) on the ```gh-pages``` branch **(you are here now)**. 
 * Subsite: [https://kbnldataservices.github.io/public-docs-staging](https://kbnldataservices.github.io/public-docs-staging)
 
 **Procuction environment**
